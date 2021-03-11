@@ -5,7 +5,7 @@ It was made on Pop_os for Pop_os.
 ## Setup
 
 1. Install PyQt5
-    Ubuntu
+    Pop_os
     ```sh
     sudo apt-get install python3-pyqt5	
 
