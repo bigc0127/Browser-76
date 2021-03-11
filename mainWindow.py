@@ -80,7 +80,7 @@ class MainWindow(QMainWindow):
         file.close()
 
         reply = QMessageBox.question(self, 'Confirm close',
-        "You are about to exit. Are you sure you want to continue?", QMessageBox.Yes |
+        "You are about to exit Browser 76. Are you sure you want to continue?", QMessageBox.Yes |
         QMessageBox.No, QMessageBox.Yes) # parent, title, message, buttons, default button
 
         if reply == QMessageBox.Yes:
