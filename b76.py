@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from mainWindow import *
 from youtube import *
 
