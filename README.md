@@ -18,7 +18,7 @@ It was made on Pop_os for Pop_os.
     ```
 3. clone
     ```sh
-    git clone https://github.com/bigc0127/python-browser.git
+    git clone https://github.com/bigc0127/Browser-76.git
     ```
 4. Run
     ```sh
