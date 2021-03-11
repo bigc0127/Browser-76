@@ -1,5 +1,5 @@
 # Python browser
-Simplified web browser made in python for a college project.
+Simplified web browser made in python.
 Web browser has bookmarks, history, multiple tabs, toolbar.
 It was made on Pop_os for Pop_os.
 ## Setup
