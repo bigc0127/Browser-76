@@ -8,3 +8,5 @@ class Browser(QGraphicsView):
         
         self.setScene(self.page)
         
+
+        
