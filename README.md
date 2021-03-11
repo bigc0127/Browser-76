@@ -18,6 +18,6 @@ It was made on Pop_os for Pop_os.
     ```
 3. Run
     ```sh
-    python3 main.py 
+    python3 b76.py 
     ```
 ***
