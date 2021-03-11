@@ -20,8 +20,12 @@ It was made on Pop_os for Pop_os.
     ```sh
     git clone https://github.com/bigc0127/Browser-76.git
     ```
-4. Run
+4. enable
     ```sh
-    python3 b76.py 
+    chmod +x b76.py 
+    ```
+5. Run
+    ```sh
+    ./b76.py
     ```
 ***
