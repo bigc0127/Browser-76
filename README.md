@@ -1,10 +1,7 @@
 # Python browser
 Simplified web browser made in python for a college project.
 Web browser has bookmarks, history, multiple tabs, toolbar.
-It was made on Ubuntu for Ubuntu.
-
-![](screenshot.png)
-
+It was made on Pop_os for Pop_os.
 ## Setup
 
 1. Install PyQt5
