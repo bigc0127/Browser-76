@@ -15,8 +15,11 @@ It was made on Pop_os for Pop_os.
 
     ```sh
     sudo apt-get install python3-pyqt5.qtwebkit
+3. clone    ```
+    ```sh
+    git clone https://github.com/bigc0127/python-browser.git
     ```
-3. Run
+4. Run
     ```sh
     python3 b76.py 
     ```
