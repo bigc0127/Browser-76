@@ -29,3 +29,4 @@ class Youtube(QMainWindow):
         view.setScene(scene)
         
   
+
