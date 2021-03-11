@@ -332,7 +332,7 @@ class Window(QGraphicsScene):
         web.load(q)
         web.setMinimumHeight(qApp.primaryScreen().size().height()-160)
 
-        i = self.tabs.addTab(web, "Google")
+        i = self.tabs.addTab(web, "DuckDuckGo")
 
         self.tabs.setCurrentIndex(i)
 
