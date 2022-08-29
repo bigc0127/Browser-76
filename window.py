@@ -43,7 +43,7 @@ class Window(QGraphicsScene):
         qurl = QUrl('www.Duckduckgo.com')
 
         web = QWebView()
-        web.load(QUrl("https://www.Duckduckgo.com"))
+        web.load(QUrl("https://search.brave.com/search?q=Freedom+definition"))
 
         i = self.tabs.addTab(web, "Duckduckgo")
 
@@ -111,12 +111,12 @@ class Window(QGraphicsScene):
 
         for line in self.lines:
             list = line.split(';')
-            url = QUrl(list[1])
+            url = QUrl(list[0])
             self.list.addItem(QListWidgetItem(list[0].strip() + '  -  ' + list[1].strip()))
 
         for line in self.history:
             list = line.split(';')
-            url = QUrl(list[1])
+            url = QUrl(list[0])
             self.list.addItem(QListWidgetItem(list[0].strip() + '  -  ' + list[1].strip()))
 
         button = QPushButton('Delete History')
@@ -332,7 +332,7 @@ class Window(QGraphicsScene):
         web.load(q)
         web.setMinimumHeight(qApp.primaryScreen().size().height()-160)
 
-        i = self.tabs.addTab(web, "DuckDuckGo")
+        i = self.tabs.addTab(web, "Brave")
 
         self.tabs.setCurrentIndex(i)
 
@@ -461,7 +461,7 @@ class Window(QGraphicsScene):
         self.tabs.currentWidget().reload()
 
     def homeButtonPush(self):
-        self.tabs.currentWidget().load(QUrl('https://www.Duckduckgo.com/'))
+        self.tabs.currentWidget().load(QUrl('https://search.brave.com/search?q=Freedom+definition'))
 
     def goButtonPush(self, address):
         tmp = address
